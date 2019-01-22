@@ -1,0 +1,124 @@
+/*------------------------------------------------------------
+	p-top
+------------------------------------------------------------*/
+.p-top{
+	// width: 730px;
+	width: 53%;
+	// height: 400px;	
+	padding: 0 1%;
+}
+.p-color1 {
+	color: #f1e915;
+}
+.p-info {
+	background-color: #5c5c5c;
+	color: #fff;
+	font-family: 'Myriad Pro';
+	margin-top: 40px;
+	padding-bottom: 25px;
+	&__item {
+		width: 33%;
+		text-align: center;
+		h2{
+			font-size: 2.5rem;
+			padding: 35px 0 40px 0;
+		}
+		p{
+			font-size: 1.8rem;
+			width: 320px;
+			margin: 0 auto;
+			// padding-bottom: 50px;
+		}
+	}
+	.item-content {
+		height: 270px;
+	}
+}
+
+.p-contact {
+	font-family: 'Myriad Pro';
+	padding-bottom: 55px;
+	&__form {
+		width: 50%;
+		h2{
+			font-size: 4.6rem;
+			color: #282828;
+			font-weight: normal;
+			padding: 60px 0 30px 0;
+		}
+		.form-group {
+			padding: 9px 0;
+			input {
+				width: 280px;
+				height: 35px;
+				background-color: #f4f5f2;
+				border: 0;
+				border-radius: 5px;
+				padding-left: 12px;
+				&::-webkit-input-placeholder{
+					color: #aeaeae;
+					font-style: italic;
+	  			}
+			}
+			textarea {
+				width: 280px;
+				height: 85px;
+				background-color: #f4f5f2;
+				border: 0;
+				border-radius: 5px;
+				padding-left: 12px;
+				&::-webkit-input-placeholder{
+					color: #aeaeae;
+					font-style: italic;
+	  			}
+			}
+		}
+		.form-submit {
+			input {
+				width: 90px;
+				height: 33px;
+				background-color: #09a6a5;
+				color: #fff;
+				border: 0;
+				font-size: 2rem;
+				font-style: italic;
+			}
+		}
+	}
+	.form-content {
+		display: flex;
+	}
+	.form-left {
+		width: 50%;
+	}
+	.form-right {
+		width: 50%;
+	}
+
+	&__info {
+		width: 50%;
+		text-align: right;
+		.info-facebook{
+			padding-top: 55px;
+			font-size: 2rem;
+			color: #077d80;
+			font-style:italic;
+			position: relative;
+			padding-right: 75px;
+			line-height: 1.3;
+			a{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		}
+		.info-text1 {
+			font-size: 2.7rem;
+			padding: 40px 0 35px 0;
+		}
+		.info-text2 {
+			font-size: 2rem;
+			line-height: 1.3;
+		}
+	}
+}

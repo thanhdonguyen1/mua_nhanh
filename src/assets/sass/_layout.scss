@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+	Layout
+------------------------------------------------------------*/
+body {
+	line-height: 1.5;
+	text-align: center;
+}
+
+.l-container {
+	margin: 0 auto;
+	width: 1380px;
+	text-align: left;
+	@include tablet {
+		width: 94%;
+	}
+}
+
+.l-flexbox {
+	display: flex;
+}
